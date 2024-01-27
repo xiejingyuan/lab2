@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* Basic Page Styles */
+*{
+	background-color: rgb(222, 222, 196);
+}
+body {
+	font-family: Tahoma, Verdana, sans-serif;
+	color: #333;
+	margin: 0 auto;
+	min-width: 768px;
+	max-width: 1024px;
+}
+.hgroup{
+	text-align: center;
+}
+.pgroup{
+	p{
+		display:inline-block;
+		text-indent: 25px;
+		margin:50px 50px 0 50px;
+		width:400px;
+		height:200px;
+	}
+	img{
+		float:right;
+		width:56px;
+		height:87px;
+	}
+}
